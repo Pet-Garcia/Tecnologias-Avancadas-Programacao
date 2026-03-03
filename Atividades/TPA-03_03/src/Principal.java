@@ -1,6 +1,8 @@
 
 import javax.swing.JOptionPane;
 
+// shift + f6 executa o código em que está
+
 public class Principal {
     public static void main(String args[])/*argumentos; args[], ... tudo antes do [] são variaveis; []args, ... tudo depois do [] são vetores */{
         
@@ -19,6 +21,8 @@ public class Principal {
         data = JOptionPane.showInputDialog("Digite a data de nascimento");
         cpf = JOptionPane.showInputDialog("Digite o cpf");
         ra = JOptionPane.showInputDialog("Digite o ra");
+        
+        a.cadastrar(nome, data, cpf, ra);
         
     }
 }
