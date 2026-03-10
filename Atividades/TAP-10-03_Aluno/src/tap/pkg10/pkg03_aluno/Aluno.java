@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package tap.pkg10.pkg03_aluno;
 
-/**
- *
- * @author aluno
- */
 public class Aluno {
     // atributos
     private String nome;
@@ -29,10 +21,4 @@ public class Aluno {
         return ra;
     }
     
-    
-    
-    public void cadastrar(String n, String r){
-        nome = n;
-        ra = r;
-    }
 }
