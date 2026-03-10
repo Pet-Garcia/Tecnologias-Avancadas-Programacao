@@ -20,10 +20,12 @@ public class Usuario {
         String nome,  ra;
 
 
-        nome = JOptionPane.showInputDialog("Digite o nome");
-        ra = JOptionPane.showInputDialog("Digite o ra");
+        a.setNome(JOptionPane.showInputDialog("Digite o nome"));
+        a.setRA(JOptionPane.showInputDialog("Digite o ra"));
         
-        a.cadastrar(nome, ra);
+        JOptionPane.showMessageDialog(null, a.getNome());
+        JOptionPane.showMessageDialog(null, a.getRA());
+
     }
     
 }
