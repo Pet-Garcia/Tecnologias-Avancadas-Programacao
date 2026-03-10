@@ -13,13 +13,15 @@ public class Aluno {
     private String nome;
     private String ra;
     
+    // Setter
     public void setNome(String n){
-        nome = n;
+        this.nome = n;
     }
     public void setRA(String r){
-        ra = r;
+        this.ra = r;
     }
     
+    // Getter
     public String getNome(){
         return nome;
     }
