@@ -11,19 +11,19 @@ package tpa.pkg31.pkg03_heranca;
  */
 public class Funcionario extends Pessoa{
     private String cargo;
-    private String salario;
+    private double salario;
     
     public void setCargo(String cargo){
         this.cargo = cargo;
     }
-    public String getNome(){
+    public String getCargo(){
         return this.cargo;
     }
     
-    public void setSalario(String salario){
+    public void setSalario(double salario){
         this.salario = salario;
     }
-    public String getSalario(){
+    public double getSalario(){
         return this.salario;
     }
 }
