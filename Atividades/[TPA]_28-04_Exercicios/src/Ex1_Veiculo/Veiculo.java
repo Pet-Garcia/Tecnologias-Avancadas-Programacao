@@ -45,6 +45,10 @@ public class Veiculo {
         return valor;
     }
     
+    public String getResultado(){
+        return resultado;
+    }
+    
     public Veiculo(String modelo, String marca, int data, String cor, double valor){
         this.modelo = modelo;
         this.marca = marca;
@@ -57,6 +61,7 @@ public class Veiculo {
                 "Data: " + this.data + "\n" +
                 "Cor: " + this.cor + "\n" +
                 "Valor: " + this.valor + "\n";
+        
     }
     
     

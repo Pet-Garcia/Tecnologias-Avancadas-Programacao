@@ -26,9 +26,8 @@ public class Exibicao {
         
     }
     
-    public static void main(){
-        
-        JOptionPane.showMessageDialog(null, resultado);
+    public static void main(String []args){
+        JOptionPane.showMessageDialog(null, v.getResultado());
         
     }
 }
