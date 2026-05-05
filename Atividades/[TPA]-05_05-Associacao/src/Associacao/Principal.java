@@ -15,7 +15,7 @@ public class Principal {
         c.setEndereco(e);
         
         System.out.println(c.getNome() + "\n"
-            + c.getEndereco()); // c.getEndereco().getLogradouro() para pegar o logradouro do endereco que está guardado no e que está guardado no c
+            + c.getEndereco().getLogradouro()); // c.getEndereco().getLogradouro() para pegar o logradouro do endereco que está guardado no e que está guardado no c
     }
     
 }
