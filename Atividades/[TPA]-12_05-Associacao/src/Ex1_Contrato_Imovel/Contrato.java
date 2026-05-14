@@ -7,6 +7,13 @@ public class Contrato {
     private Proprietario proprietario;
     private Inquilino inquilino;
 
+    public Contrato(String data, Imovel imovel, Proprietario proprietario, Inquilino inquilino) {
+        this.data = data;
+        this.imovel = imovel;
+        this.proprietario = proprietario;
+        this.inquilino = inquilino;
+    }
+    
     public String getData() {
         return data;
     }
