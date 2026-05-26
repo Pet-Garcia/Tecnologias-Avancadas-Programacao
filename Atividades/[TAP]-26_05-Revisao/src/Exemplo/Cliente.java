@@ -13,7 +13,9 @@ import javax.swing.JOptionPane;
 public class Cliente extends Pessoa{ // HErança
     private double saldo;
 
-    public Cliente(){ //Construtor
+    public Cliente(String n, Endereco e, double s){ //Construtor
+        super(n,e);
+        
         JOptionPane.showMessageDialog(null, "Cliente");
     }
     

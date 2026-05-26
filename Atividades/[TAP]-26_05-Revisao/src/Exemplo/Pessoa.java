@@ -15,7 +15,7 @@ public class Pessoa {
     private Endereco endereco; // Associação
     
     // Primeiro a Generica e Depois a Especializada
-    public Pessoa(){ //Construtor
+    public Pessoa(String n, Endereco e){ //Construtor
         JOptionPane.showMessageDialog(null, "Pessoa");
     }
 
